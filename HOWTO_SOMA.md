@@ -6,7 +6,7 @@ To create the environment I followed the installation steps in the the original 
 
 ```
 git clone https://github.com/mpinb/segment-anything-2.git  mpinb-sam2
-conda env create -n mpinb-sam2 -f mpinb-sam2/sam2-soma-env.yml
+CONDA_OVERRIDE_CUDA="12.2" conda env create -n mpinb-sam2 -f mpinb-sam2/sam2-soma-env.yml
 conda activate mpinb-sam2
 python -m pip install mpinb-sam2/wheels/SAM_2-1.0-cp310-cp310-linux_x86_64.whl
 ```
