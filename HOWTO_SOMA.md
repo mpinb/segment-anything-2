@@ -15,4 +15,6 @@ python -m pip install mpinb-sam2/wheels/SAM_2-1.0-cp310-cp310-linux_x86_64.whl
 
 SAM-2  masks generation process is very GPU memory hungry.  I advise you to start with the base plus model and see if you are satisfied with the results before switching to the large model. 
 
-There is also the `YOLO 8` model from ultralytics that has a lower memory footprint for inference.  You could consider using  `SAM-2` to train `YOLO 8`.
+It is also possible to use `YOLO 8` segmentation model from ultralytics that has a lower memory footprint for inference. You might consider using `SAM-2` to train `YOLO 8` and then switch models.
+
+__NOTE:__ The [conda environment](sam2-soma-env.yml) has also the 'YOLO 8` ultralytics module installed for convenience.

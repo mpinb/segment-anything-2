@@ -12,9 +12,11 @@
 
 ![SA-V dataset](assets/sa_v_dataset.jpg?raw=true)
 
-## Installation
+## Installation (SOMA)
 
-Note: I created an environment and [HOWTO steps](./HOWTO_SOMA.md) to setup and run SAM-2 in soma GPU nodes.
+I created a custom [conda environment](sam2-soma-env.yml) and [HOWTO steps](HOWTO_SOMA.md) to setup and run SAM-2 in soma GPU nodes.
+
+## Installation
 
 SAM 2 needs to be installed first before use. The code requires `python>=3.10`, as well as `torch>=2.3.1` and `torchvision>=0.18.1`. Please follow the instructions [here](https://pytorch.org/get-started/locally/) to install both PyTorch and TorchVision dependencies. You can install SAM 2 on a GPU machine using:
 
